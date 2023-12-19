@@ -1,0 +1,10 @@
+{
+    "builds": [
+      {
+        "src": "Gemfile",
+        "use": "@vercel/ruby",
+        "config": { "rubyVersion": "3.2.2" }
+      }
+    ]
+  }
+  
