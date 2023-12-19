@@ -11,6 +11,14 @@ lang: en
 
 gems: [jekyll-paginate]
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Madrid
