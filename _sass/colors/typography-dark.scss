@@ -4,7 +4,7 @@
 
 @mixin dark-scheme {
   /* Framework color */
-  --main-bg: #171717;
+  --main-bg: rgb(27, 27, 30);
   --mask-bg: rgb(68, 69, 70);
   --main-border-color: rgb(44, 45, 45);
 
@@ -16,9 +16,9 @@
   --label-color: #a7a7a7;
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: #868686;
-  --link-color: #60a5fa;
-  --link-underline-color: #3b82f6;
-  --button-bg: #171717;
+  --link-color: rgb(138, 180, 248);
+  --link-underline-color: rgb(82, 108, 150);
+  --button-bg: #1e1e1e;
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
@@ -35,9 +35,9 @@
   );
 
   /* Sidebar */
-  --site-title-color: #d4d4d4;
+  --site-title-color: #717070;
   --site-subtitle-color: #868686;
-  --sidebar-bg: #171717;
+  --sidebar-bg: #1e1e1e;
   --sidebar-border-color: #292929;
   --sidebar-muted-color: #868686;
   --sidebar-active-color: rgb(255, 255, 255, 0.95);
@@ -47,7 +47,7 @@
   --avatar-border-color: rgb(206, 206, 206, 0.9);
 
   /* Topbar */
-  --topbar-bg: #171717;
+  --topbar-bg: rgb(27, 27, 30, 0.64);
   --topbar-text-color: var(--text-color);
   --search-border-color: rgb(55, 55, 55);
   --search-icon-color: rgb(100, 102, 105);
@@ -67,8 +67,8 @@
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #171717;
-  --card-hovor-bg: #404040;
+  --card-bg: #1e1e1e;
+  --card-hovor-bg: #464d51;
   --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;

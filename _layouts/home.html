@@ -41,9 +41,6 @@ refactor: true
 {% endif %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  <p>
-    Welcome to Pablo's notes! This is where I store some of my learnings. I like to keep them here for quick reference when I need to review something I already know.
-  </p>
   {% for post in posts %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">

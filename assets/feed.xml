@@ -38,7 +38,6 @@ permalink: /feed.xml
     <author>
       <name>{{ post.author | default: site.social.name }}</name>
     </author>
-   
 
   {% if post.categories %}
     {% for category in post.categories %}
@@ -54,7 +53,6 @@ permalink: /feed.xml
       {{ content  | strip_html | truncate: 400 }}
     </summary>
   {% endif %}
-  
 
   </entry>
 {% endfor %}
