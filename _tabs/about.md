@@ -4,5 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+These are notes that [I've](https://pablohansen.com) taken as I've learned various topics.
+
+The layout and construction of this website was heavily inspired by [Paul's Online Math Notes](https://tutorial.math.lamar.edu), which I've found surprisingly useful for reviewing and redigisting material learned through textbooks, practice, etc.

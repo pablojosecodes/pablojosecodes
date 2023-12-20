@@ -1,14 +1,14 @@
 ---
-title: Multi-variable Calculus
+title: Deep Learning for Natural Language Processing (in progress)
 date: 2023-11-20 11:33:00 +0800
-categories: [NLP, ML, Overview]
+categories: [NLP, ML]
 tags: [overview]
 math: true
-mermaid: true
+mermaid: true 
 ---
 
 
-Welcome to my notes on Deep Learning for Computer Vision, inspired by a Master's course at the Polytechnic University of Madrid. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.
+Welcome to my notes on Deep Learning for Natural Language Processing, inspired by a Master's course at the Polytechnic University of Madrid. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.
 
 These notes are based on the assumption that you have a solid understanding of the fundamentals of machine learning, including basic concepts in calculus, linear algebra, and probability. A familiarity with the basics of programming, particularly in Python, is also beneficial, as many examples and exercises will involve coding.
 
@@ -26,7 +26,7 @@ Some important pointers for those using these materials to learn or review:
 
  **[Intro to NLP](https://google.com)**: This chapter serves as an entry point into the world of Natural Language Processing (NLP) using machine learning techniques. It covers the basics of NLP, including the challenges and opportunities inherent in processing and understanding human language through computational means.
 
-*  **[Distributional Semantics]()**: In this section, we delve into the concept of distributional semantics, exploring how words can be represented in a way that captures their meanings based on the contexts they appear in. We also introduce word embeddings, a crucial technique in modern NLP that allows for efficient representation and processing of text data.
+*  **[Distributional Semantics](http://localhost:4000/posts/distributional-semantics)**: In this section, we delve into the concept of distributional semantics, exploring how words can be represented in a way that captures their meanings based on the contexts they appear in. We also introduce word embeddings, a crucial technique in modern NLP that allows for efficient representation and processing of text data.
 
 * **[Sequential Models ]()**: This part of the notes focuses on Recurrent Neural Networks (RNNs), a class of neural networks particularly suited for sequential data like text. We cover the architecture of RNNs and how they can be used for various NLP tasks.
 
@@ -41,7 +41,7 @@ Some important pointers for those using these materials to learn or review:
 
 
 
- **[What are GNNs?]()**: This introductory chapter provides an overview of Graph Neural Networks (GNNs), discussing why they are crucial in the data science field, how embeddings are applied in GNNs, and the basic architecture of these networks.
+ **[What are GNNs?](http://localhost:4000/posts/gnns)**: This introductory chapter provides an overview of Graph Neural Networks (GNNs), discussing why they are crucial in the data science field, how embeddings are applied in GNNs, and the basic architecture of these networks.
 
 * **[Layers]()**: Focuses on the GNN layer, explaining how these layers process graph-structured data and how information is propagated within a GNN.
 

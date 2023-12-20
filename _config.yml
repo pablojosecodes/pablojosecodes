@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://pablojosecodes.github.io"
+url: "https://npeasy.pablohansen.com"
 
 github:
   username: pablojosecodes # change to your github username
@@ -73,6 +73,7 @@ theme_mode: # [light|dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
+
 avatar: "/assets/logo.png"
 
 # boolean type, the global switch for TOC in posts.
