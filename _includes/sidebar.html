@@ -1,8 +1,9 @@
 <!-- The Side Bar -->
 
-<aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+<!-- <aside aria-label="Sidebar" id="sidebar" class=" d-flex flex-column align-items-end "> -->
+<aside aria-label="Sidebar" id="sidebar" class=" d-flex flex-column align-items-end ">
+  <header class="profile-wrapper background2">
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle ">
         <img src="https://d1nvlwubobyq5u.cloudfront.net/npeasy/logo.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
     </a>
 
@@ -13,7 +14,7 @@
   </header>
   <!-- .profile-wrapper -->
 
-  <nav class="flex-column flex-grow-1 w-100 ps-0">
+  <nav class="flex-column flex-grow-1 w-100 ps-0 background2">
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">

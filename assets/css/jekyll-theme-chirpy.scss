@@ -1,6 +1,42 @@
----
----
-
+--- 
+--- 
 @import 'main';
 
 /* append your custom style below */
+
+
+.background2 {
+    background-color: black;
+}
+
+/* Apply the variables to the .customsidebar class */
+.customsidebar {
+    background-color: var(--sidebar-bg);
+    border-color: var(--sidebar-border-color);
+    color: var(--sidebar-muted-color);
+}
+
+.customsidebar .site-title {
+    color: var(--site-title-color);
+}
+
+.customsidebar .site-subtitle {
+    color: var(--site-subtitle-color);
+}
+
+.customsidebar a {
+    color: var(--sidebar-active-color);
+}
+
+.customsidebar a:hover {
+    background-color: var(--sidebar-hover-bg);
+}
+
+.customsidebar button {
+    background-color: var(--sidebar-btn-bg);
+    color: var(--sidebar-btn-color);
+}
+
+.customsidebar .avatar {
+    border-color: var(--avatar-border-color);
+}
