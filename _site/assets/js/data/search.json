@@ -1,8 +1,8 @@
 [
   
   {
-    "title": "Multivariable Calculus (In Progress)",
-    "url": "/posts/MVC/",
+    "title": "(textbook-style) Multivariable Calculus (In Progress)",
+    "url": "/posts/(O)MVC/",
     "categories": "NLP, ML, Overview",
     "tags": "overview",
     "date": "2023-11-20 03:33:00 +0000",
@@ -18,8 +18,8 @@
   },
   
   {
-    "title": "Calculus (Conceptual)",
-    "url": "/posts/calculus/",
+    "title": "(Conceptual) Calculus (in progress)",
+    "url": "/posts/(O)calculus/",
     "categories": "NLP",
     "tags": "overview",
     "date": "2023-11-20 03:33:00 +0000",
@@ -35,8 +35,25 @@
   },
   
   {
-    "title": "Deep Learning for Natural Language Processing (in progress)",
-    "url": "/posts/Deep-learning-for-NLP/",
+    "title": "(Conceptual) Probability (in progress)",
+    "url": "/posts/(O)Probability/",
+    "categories": "Prob",
+    "tags": "overview",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
+  },
+  
+  {
+    "title": "(Practically-minded) Natural Language Processing (in progress)",
+    "url": "/posts/(O)NLP/",
     "categories": "NLP, ML",
     "tags": "overview",
     "date": "2023-11-20 03:33:00 +0000",
@@ -49,6 +66,40 @@
     
     "snippet": "Welcome to my notes on Deep Learning for Natural Language Processing, inspired by a Master’s course at the Polytechnic University of Madrid. These public notes are meant to be a resource for both c...",
     "content": "Welcome to my notes on Deep Learning for Natural Language Processing, inspired by a Master’s course at the Polytechnic University of Madrid. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.These notes are based on the assumption that you have a solid understanding of the fundamentals of machine learning, including basic concepts in calculus, linear algebra, and probability. A familiarity with the basics of programming, particularly in Python, is also beneficial, as many examples and exercises will involve coding.Some important pointers for those using these materials to learn or review:      Exercises: I believe that the only thing which can effectively solidify knowledge is seeing concepts work in practice. As such, I have included exercises and sample projects for the reader to complete. I would advise at least attempting each of the exercises or understanding the source code (which I will post to Github).        Project: In addition to the exercises, I have included overarching project prompts which will solidify your learnings further. These should each take between 10-40 hours, so proceed with caution.        Layout: The sections do build upon each other sequentially, but I have done my best to modularize the learnings such that you can dive into any chapter of interest without missing too much context.  Here is a listing (and brief description) of the material that is in this set of notes:Intro to NLP: This chapter serves as an entry point into the world of Natural Language Processing (NLP) using machine learning techniques. It covers the basics of NLP, including the challenges and opportunities inherent in processing and understanding human language through computational means.      Distributional Semantics: In this section, we delve into the concept of distributional semantics, exploring how words can be represented in a way that captures their meanings based on the contexts they appear in. We also introduce word embeddings, a crucial technique in modern NLP that allows for efficient representation and processing of text data.        Sequential Models : This part of the notes focuses on Recurrent Neural Networks (RNNs), a class of neural networks particularly suited for sequential data like text. We cover the architecture of RNNs and how they can be used for various NLP tasks.        Advanced RNNs: Building on the previous chapter, we explore advanced designs of RNNs, including Long Short-Term Memory (LSTM) networks. This section also discusses how these architectures can be applied to solve complex NLP problems.        Transformers: This chapter introduces the Transformer model, a groundbreaking architecture in NLP. We cover the basics of how Transformers work, including their attention mechanism and how they differ from and improve upon previous sequential models.        Pretrained Language Models: Here, we explore the concept and application of pretrained language models in NLP, such as BERT and GPT. We discuss how these models are trained, their capabilities, and their impact on the field of NLP.        NLP Tools: This final section provides an overview of readily available tools and frameworks that can be used for NLP tasks. It’s a practical guide to applying NLP techniques without the need for building models from scratch, ideal for quick deployment and experimentation.  What are GNNs?: This introductory chapter provides an overview of Graph Neural Networks (GNNs), discussing why they are crucial in the data science field, how embeddings are applied in GNNs, and the basic architecture of these networks.      Layers: Focuses on the GNN layer, explaining how these layers process graph-structured data and how information is propagated within a GNN.        Connecting Layers: Covers various ways layers in a GNN can be connected, including different types of graph convolutions and their impact on learning.        Computation Graph: Provides an in-depth look at the computation graph of GNNs, explaining data flow and computations at each node and edge.        Augmentating GNNs: Explores data augmentation in GNNs, enhancing the model’s ability to learn robust representations from graph-structured data.        Training GNNs: Dedicated to the training process of GNNs, including loss functions, optimization techniques, and handling overfitting.        Relational GNNs: Delves into relational GNNs, designed for multi-relational data, particularly useful in scenarios with different types or properties of relationships.        Temporal GNNs: Discusses Temporal GNNs, specialized for handling graph data that changes over time, including unique challenges and techniques.  Knowledge Graphs: Introduces knowledge graphs, their structure, significance, and applications, and how GNNs can be applied to them.      Knowledge Graph Completion: Focuses on knowledge graph completion using GNNs, predicting missing information in a knowledge graph.        Knowledge Graph-Based GNN Applications: Explores various applications of GNNs in the context of knowledge graphs, demonstrating practical uses in real-world scenarios.  "
+  },
+  
+  {
+    "title": "(Conceptual) Linear Algebra (in progress)",
+    "url": "/posts/(O)Linear-Algebra/",
+    "categories": "LA",
+    "tags": "overview",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
+  },
+  
+  {
+    "title": "(Practically-minded) Computer Vision (in progress)",
+    "url": "/posts/(O)Computer-Vision/",
+    "categories": "CV",
+    "tags": "overview",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "",
+    "content": ""
   },
   
   {

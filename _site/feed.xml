@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>NP Easy</title>
   <subtitle>My structured learning notes.</subtitle>
-  <updated>2023-12-20T20:19:26+00:00</updated>
+  <updated>2023-12-22T10:15:09+00:00</updated>
   <author>
     <name>Pablo Hansen</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Multivariable Calculus (In Progress)</title>
-    <link href="http://localhost:4000/posts/MVC/" rel="alternate" type="text/html" title="Multivariable Calculus (In Progress)" />
+    <title>(textbook-style) Multivariable Calculus (In Progress)</title>
+    <link href="http://localhost:4000/posts/(O)MVC/" rel="alternate" type="text/html" title="(textbook-style) Multivariable Calculus (In Progress)" />
     <published>2023-11-20T03:33:00+00:00</published>
   
-    <updated>2023-12-20T16:16:00+00:00</updated>
+    <updated>2023-11-20T03:33:00+00:00</updated>
   
-    <id>http://localhost:4000/posts/MVC/</id>
-    <content src="http://localhost:4000/posts/MVC/" />
+    <id>http://localhost:4000/posts/(O)MVC/</id>
+    <content src="http://localhost:4000/posts/(O)MVC/" />
     <author>
       <name>Pablo Hansen</name>
     </author>
@@ -62,14 +62,14 @@ These notes are based on the assumption that you have a solid understanding o...
 
   
   <entry>
-    <title>Calculus (Conceptual)</title>
-    <link href="http://localhost:4000/posts/calculus/" rel="alternate" type="text/html" title="Calculus (Conceptual)" />
+    <title>(Conceptual) Calculus (in progress)</title>
+    <link href="http://localhost:4000/posts/(O)calculus/" rel="alternate" type="text/html" title="(Conceptual) Calculus (in progress)" />
     <published>2023-11-20T03:33:00+00:00</published>
   
     <updated>2023-11-20T03:33:00+00:00</updated>
   
-    <id>http://localhost:4000/posts/calculus/</id>
-    <content src="http://localhost:4000/posts/calculus/" />
+    <id>http://localhost:4000/posts/(O)calculus/</id>
+    <content src="http://localhost:4000/posts/(O)calculus/" />
     <author>
       <name>Pablo Hansen</name>
     </author>
@@ -96,14 +96,49 @@ These notes are based on the assumption that you have a solid understanding o...
 
   
   <entry>
-    <title>Deep Learning for Natural Language Processing (in progress)</title>
-    <link href="http://localhost:4000/posts/Deep-learning-for-NLP/" rel="alternate" type="text/html" title="Deep Learning for Natural Language Processing (in progress)" />
+    <title>(Conceptual) Probability (in progress)</title>
+    <link href="http://localhost:4000/posts/(O)Probability/" rel="alternate" type="text/html" title="(Conceptual) Probability (in progress)" />
     <published>2023-11-20T03:33:00+00:00</published>
   
     <updated>2023-11-20T03:33:00+00:00</updated>
   
-    <id>http://localhost:4000/posts/Deep-learning-for-NLP/</id>
-    <content src="http://localhost:4000/posts/Deep-learning-for-NLP/" />
+    <id>http://localhost:4000/posts/(O)Probability/</id>
+    <content src="http://localhost:4000/posts/(O)Probability/" />
+    <author>
+      <name>Pablo Hansen</name>
+    </author>
+
+  
+    
+    <category term="Prob" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>(Practically-minded) Natural Language Processing (in progress)</title>
+    <link href="http://localhost:4000/posts/(O)NLP/" rel="alternate" type="text/html" title="(Practically-minded) Natural Language Processing (in progress)" />
+    <published>2023-11-20T03:33:00+00:00</published>
+  
+    <updated>2023-11-20T03:33:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/(O)NLP/</id>
+    <content src="http://localhost:4000/posts/(O)NLP/" />
     <author>
       <name>Pablo Hansen</name>
     </author>
@@ -134,25 +169,21 @@ These notes are based on the assumption that you have a solid understanding of t
 
   
   <entry>
-    <title>Chapter 2.1 What are GNNs?</title>
-    <link href="http://localhost:4000/posts/gnns/" rel="alternate" type="text/html" title="Chapter 2.1 What are GNNs?" />
-    <published>2023-08-08T00:00:00+00:00</published>
+    <title>(Conceptual) Linear Algebra (in progress)</title>
+    <link href="http://localhost:4000/posts/(O)Linear-Algebra/" rel="alternate" type="text/html" title="(Conceptual) Linear Algebra (in progress)" />
+    <published>2023-11-20T03:33:00+00:00</published>
   
-    <updated>2023-08-08T00:00:00+00:00</updated>
+    <updated>2023-11-20T03:33:00+00:00</updated>
   
-    <id>http://localhost:4000/posts/gnns/</id>
-    <content src="http://localhost:4000/posts/gnns/" />
+    <id>http://localhost:4000/posts/(O)Linear-Algebra/</id>
+    <content src="http://localhost:4000/posts/(O)Linear-Algebra/" />
     <author>
       <name>Pablo Hansen</name>
     </author>
 
   
     
-    <category term="NLP" />
-    
-    <category term="ML" />
-    
-    <category term="DL4NLP" />
+    <category term="LA" />
     
   
 
@@ -164,64 +195,8 @@ These notes are based on the assumption that you have a solid understanding of t
 
 
 
-      Graphs
-
-Graph Components
-
-  Objects: nodes, vertices (N)
-  Interactions: Arcs, links, edges (E)
-  System: graph, network (G(N,E))
-To define any graph
-  What are its nodes?
-  What are its edges?
-Terminology/Types of Graphs
-  Directed vs undirected
-    
-      Sample Directed: Twitter Followers
-      Sample Undircted: Facebook Friends
-    
-  
-  Degree/Grado Number of adjacent nodes for a given nod...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Chapter 1.1 Distributional Semantics</title>
-    <link href="http://localhost:4000/posts/Distributional-Semantics/" rel="alternate" type="text/html" title="Chapter 1.1 Distributional Semantics" />
-    <published>2023-08-08T00:00:00+00:00</published>
-  
-    <updated>2023-08-08T00:00:00+00:00</updated>
-  
-    <id>http://localhost:4000/posts/Distributional-Semantics/</id>
-    <content src="http://localhost:4000/posts/Distributional-Semantics/" />
-    <author>
-      <name>Pablo Hansen</name>
-    </author>
-
-  
-    
-    <category term="NLP" />
-    
-    <category term="ML" />
-    
-    <category term="DL4NLP" />
-    
-  
-
-  
-    <summary>
       
 
-
-
-
-
-      Welcome to my notes on Deep Learning for Natural Language Processing, inspired by a Master’s course at the Polytechnic University of Madrid. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.
-
-These notes are based on the assumption that you have a solid understanding of the funda...
     </summary>
   
 
