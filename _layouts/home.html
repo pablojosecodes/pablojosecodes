@@ -41,7 +41,7 @@ refactor: true
     </p>
     {% for post in posts %}
 
-    {% if post.tags contains 'overview' %}
+    {% if post.tags contains 'overview' and post.tags contains 'done' %}
 
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">

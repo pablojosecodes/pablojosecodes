@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>NP Easy</title>
   <subtitle>My structured learning notes.</subtitle>
-  <updated>2023-12-22T10:15:09+00:00</updated>
+  <updated>2023-12-22T13:16:39+00:00</updated>
   <author>
     <name>Pablo Hansen</name>
     <uri>http://localhost:4000/</uri>
@@ -17,82 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>(textbook-style) Multivariable Calculus (In Progress)</title>
-    <link href="http://localhost:4000/posts/(O)MVC/" rel="alternate" type="text/html" title="(textbook-style) Multivariable Calculus (In Progress)" />
-    <published>2023-11-20T03:33:00+00:00</published>
-  
-    <updated>2023-11-20T03:33:00+00:00</updated>
-  
-    <id>http://localhost:4000/posts/(O)MVC/</id>
-    <content src="http://localhost:4000/posts/(O)MVC/" />
-    <author>
-      <name>Pablo Hansen</name>
-    </author>
-
-  
-    
-    <category term="NLP" />
-    
-    <category term="ML" />
-    
-    <category term="Overview" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Welcome to my notes on Multivariable Calculus. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.
-
-This content should teach you the equivalent of an undergraduate course at a typical four-year college.
-
-These notes are based on the assumption that you have a solid understanding o...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>(Conceptual) Calculus (in progress)</title>
-    <link href="http://localhost:4000/posts/(O)calculus/" rel="alternate" type="text/html" title="(Conceptual) Calculus (in progress)" />
-    <published>2023-11-20T03:33:00+00:00</published>
-  
-    <updated>2023-11-20T03:33:00+00:00</updated>
-  
-    <id>http://localhost:4000/posts/(O)calculus/</id>
-    <content src="http://localhost:4000/posts/(O)calculus/" />
-    <author>
-      <name>Pablo Hansen</name>
-    </author>
-
-  
-    
-    <category term="NLP" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Welcome to my notes on Fundamental Concepts in Calculus, designed as a conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable and understandable, especially for those who appreciate a visual and intuitive learning style. Since the emphasis is on the concepts, this guide is less authoritative and encompassing as my other posts, but...
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -169,6 +93,48 @@ These notes are based on the assumption that you have a solid understanding of t
 
   
   <entry>
+    <title>Multivariable Calculus (textbook-style)</title>
+    <link href="http://localhost:4000/posts/(O)MVC/" rel="alternate" type="text/html" title="Multivariable Calculus (textbook-style)" />
+    <published>2023-11-20T03:33:00+00:00</published>
+  
+    <updated>2023-11-20T03:33:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/(O)MVC/</id>
+    <content src="http://localhost:4000/posts/(O)MVC/" />
+    <author>
+      <name>Pablo Hansen</name>
+    </author>
+
+  
+    
+    <category term="NLP" />
+    
+    <category term="ML" />
+    
+    <category term="Overview" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Welcome to my notes on Multivariable Calculus. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.
+
+This content should teach you the equivalent of an undergraduate course at a typical four-year college.
+
+These notes are based on the assumption that you have a solid understanding o...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>(Conceptual) Linear Algebra (in progress)</title>
     <link href="http://localhost:4000/posts/(O)Linear-Algebra/" rel="alternate" type="text/html" title="(Conceptual) Linear Algebra (in progress)" />
     <published>2023-11-20T03:33:00+00:00</published>
@@ -184,6 +150,41 @@ These notes are based on the assumption that you have a solid understanding of t
   
     
     <category term="LA" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>(Practically-minded) Computer Vision (in progress)</title>
+    <link href="http://localhost:4000/posts/(O)Computer-Vision/" rel="alternate" type="text/html" title="(Practically-minded) Computer Vision (in progress)" />
+    <published>2023-11-20T03:33:00+00:00</published>
+  
+    <updated>2023-11-20T03:33:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/(O)Computer-Vision/</id>
+    <content src="http://localhost:4000/posts/(O)Computer-Vision/" />
+    <author>
+      <name>Pablo Hansen</name>
+    </author>
+
+  
+    
+    <category term="CV" />
     
   
 
