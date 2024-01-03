@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>NP Easy</title>
   <subtitle>My structured learning notes.</subtitle>
-  <updated>2023-12-22T13:16:39+00:00</updated>
+  <updated>2024-01-03T19:19:37+00:00</updated>
   <author>
     <name>Pablo Hansen</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,44 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 Pablo Hansen </rights>
+  <rights> © 2024 Pablo Hansen </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Why are research papers written like that?</title>
+    <link href="http://localhost:4000/posts/papers=complicated/" rel="alternate" type="text/html" title="Why are research papers written like that?" />
+    <published>2023-12-23T00:00:00+00:00</published>
+  
+    <updated>2023-12-23T00:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/papers=complicated/</id>
+    <content src="http://localhost:4000/posts/papers=complicated/" />
+    <author>
+      <name>Pablo Hansen</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Research papers are (generally) not written for you; if you had to determine a specific target audience for research papers, it would be the set of reviewers at whatever journal a given researcher submits to.
+
+And it turns out that unless you’re a PhD student or full-time researcher, you likely have a substantially different intellectual background concerning the material at hand than that set ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -150,41 +184,6 @@ These notes are based on the assumption that you have a solid understanding o...
   
     
     <category term="LA" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>(Practically-minded) Computer Vision (in progress)</title>
-    <link href="http://localhost:4000/posts/(O)Computer-Vision/" rel="alternate" type="text/html" title="(Practically-minded) Computer Vision (in progress)" />
-    <published>2023-11-20T03:33:00+00:00</published>
-  
-    <updated>2023-11-20T03:33:00+00:00</updated>
-  
-    <id>http://localhost:4000/posts/(O)Computer-Vision/</id>
-    <content src="http://localhost:4000/posts/(O)Computer-Vision/" />
-    <author>
-      <name>Pablo Hansen</name>
-    </author>
-
-  
-    
-    <category term="CV" />
     
   
 

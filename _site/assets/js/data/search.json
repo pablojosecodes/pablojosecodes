@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Why are research papers written like that?",
+    "url": "/posts/papers=complicated/",
+    "categories": "",
+    "tags": "breakdown",
+    "date": "2023-12-23 00:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Research papers are (generally) not written for you; if you had to determine a specific target audience for research papers, it would be the set of reviewers at whatever journal a given researcher ...",
+    "content": "Research papers are (generally) not written for you; if you had to determine a specific target audience for research papers, it would be the set of reviewers at whatever journal a given researcher submits to.And it turns out that unless you’re a PhD student or full-time researcher, you likely have a substantially different intellectual background concerning the material at hand than that set of peer reviewers does.Which makes sense. Science is about pushing the edges of knowledge forward- and most of the people consuming cutting-edge research papers are already well-versed in the jargon and paradigms of whatever field the paper discusses.However, this makes keeping up or catching up with any field (especially fields like generative artificial intelligence models that seem to have a breakhrough every other day), especially difficult.I view this much in the same way that keeping up with local news in a foreign city that speaks a langauge foreign to you. Two pieces of complexity in this example are immediately apparent. First, there’s the constant barrage of news you’d need to filter through- do you care about the sports section? Does that new gas station opening have an impact on your daily commute? Second, there’s the trifling fact that the news is written in a language you don’t speak.In the context of recent AI breakthroughs, I’d only add a caveat to this metaphor; it just so happens, to extend the metaphor, that this foreign city has a few local events occuring which might have wide-ranging impacts on the rest of the world (say, they’re building nukes).theAll that to say, I do some paper breakdowns on this website.  You can find the pure paper breakdowns by checking out the “breakdown” tag and more implementation heavy breakdowns at the “implementation” tag.This whole post has been a meandering ramble of me rationalizing the use they provide people, but really- I just like talking about recent papers."
+  },
+  
+  {
     "title": "(Conceptual) Probability (in progress)",
     "url": "/posts/(O)Probability/",
     "categories": "Prob",
@@ -48,7 +65,7 @@
 
     
     "snippet": "Welcome to my notes on Multivariable Calculus. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning appl...",
-    "content": "Welcome to my notes on Multivariable Calculus. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.This content should teach you the equivalent of an undergraduate course at a typical four-year college.These notes are based on the assumption that you have a solid understanding of the fundamentals of machine learning, including basic concepts in calculus, linear algebra, and probability. A familiarity with the basics of programming, particularly in Python, is also beneficial, as many examples and exercises will involve coding.Some important pointers for those using these materials to learn or review:      Exercises: I believe that the only thing which can effectively solidify knowledge is seeing concepts work in practice. As such, I have included exercises and sample projects for the reader to complete. I would advise at least attempting each of the exercises or understanding the source code (which I will post to Github).        Project: In addition to the exercises, I have included overarching project prompts which will solidify your learnings further. These should each take between 10-40 hours, so proceed with caution.        Layout: The sections do build upon each other sequentially, but I have done my best to modularize the learnings such that you can dive into any chapter of interest without missing too much context.    Examples  Determine if the following limits exist or not. If they do exist give the value of the limit.                                    A) $\\textbf{some equation } f_x=y_x$                                                     $\\textbf{Some answer } f_x=y_x$                         Here is a listing (and brief description) of the material that is in this set of notes:Intro to NLP: This chapter serves as an entry point into the world of Natural Language Processing (NLP) using machine learning techniques. It covers the basics of NLP, including the challenges and opportunities inherent in processing and understanding human language through computational means.      Distributional Semantics: In this section, we delve into the concept of distributional semantics, exploring how words can be represented in a way that captures their meanings based on the contexts they appear in. We also introduce word embeddings, a crucial technique in modern NLP that allows for efficient representation and processing of text data.        Sequential Models : This part of the notes focuses on Recurrent Neural Networks (RNNs), a class of neural networks particularly suited for sequential data like text. We cover the architecture of RNNs and how they can be used for various NLP tasks.        Advanced RNNs: Building on the previous chapter, we explore advanced designs of RNNs, including Long Short-Term Memory (LSTM) networks. This section also discusses how these architectures can be applied to solve complex NLP problems.        Transformers: This chapter introduces the Transformer model, a groundbreaking architecture in NLP. We cover the basics of how Transformers work, including their attention mechanism and how they differ from and improve upon previous sequential models.        Pretrained Language Models: Here, we explore the concept and application of pretrained language models in NLP, such as BERT and GPT. We discuss how these models are trained, their capabilities, and their impact on the field of NLP.        NLP Tools: This final section provides an overview of readily available tools and frameworks that can be used for NLP tasks. It’s a practical guide to applying NLP techniques without the need for building models from scratch, ideal for quick deployment and experimentation.  What are GNNs?: This introductory chapter provides an overview of Graph Neural Networks (GNNs), discussing why they are crucial in the data science field, how embeddings are applied in GNNs, and the basic architecture of these networks.      Layers: Focuses on the GNN layer, explaining how these layers process graph-structured data and how information is propagated within a GNN.        Connecting Layers: Covers various ways layers in a GNN can be connected, including different types of graph convolutions and their impact on learning.        Computation Graph: Provides an in-depth look at the computation graph of GNNs, explaining data flow and computations at each node and edge.        Augmentating GNNs: Explores data augmentation in GNNs, enhancing the model’s ability to learn robust representations from graph-structured data.        Training GNNs: Dedicated to the training process of GNNs, including loss functions, optimization techniques, and handling overfitting.        Relational GNNs: Delves into relational GNNs, designed for multi-relational data, particularly useful in scenarios with different types or properties of relationships.        Temporal GNNs: Discusses Temporal GNNs, specialized for handling graph data that changes over time, including unique challenges and techniques.  Knowledge Graphs: Introduces knowledge graphs, their structure, significance, and applications, and how GNNs can be applied to them.      Knowledge Graph Completion: Focuses on knowledge graph completion using GNNs, predicting missing information in a knowledge graph.        Knowledge Graph-Based GNN Applications: Explores various applications of GNNs in the context of knowledge graphs, demonstrating practical uses in real-world scenarios.  "
+    "content": "Welcome to my notes on Multivariable Calculus. These public notes are meant to be a resource for both current students and anyone interested in exploring the fascinating world of deep learning applied to language.This content should teach you the equivalent of an undergraduate course at a typical four-year college.These notes are based on the assumption that you have a solid understanding of the fundamentals of machine learning, including basic concepts in calculus, linear algebra, and probability. A familiarity with the basics of programming, particularly in Python, is also beneficial, as many examples and exercises will involve coding.Some important pointers for those using these materials to learn or review:      Exercises: I believe that the only thing which can effectively solidify knowledge is seeing concepts work in practice. As such, I have included exercises and sample projects for the reader to complete. I would advise at least attempting each of the exercises or understanding the source code (which I will post to Github).        Project: In addition to the exercises, I have included overarching project prompts which will solidify your learnings further. These should each take between 10-40 hours, so proceed with caution.        Layout: The sections do build upon each other sequentially, but I have done my best to modularize the learnings such that you can dive into any chapter of interest without missing too much context.    Examples  Determine if the following limits exist or not. If they do exist give the value of the limit.                                    A) $\\textbf{some equation } f_x=y_x$                                                     $\\textbf{Some answer } f_x=y_x$                         Here is a listing (and brief description) of the material that is in this set of notes:Intro to NLP: This chapter serves as an entry point into the world of Natural Language Processing (NLP) using machine learning techniques. It covers the basics of NLP, including the challenges and opportunities inherent in processing and understanding human language through computational means.      Distributional Semantics: In this section, we delve into the concept of distributional semantics, exploring how words can be represented in a way that captures their meanings based on the contexts they appear in. We also introduce word embeddings, a crucial technique in modern NLP that allows for efficient representation and processing of text data.        Sequential Models : This part of the notes focuses on Recurrent Neural Networks (RNNs), a class of neural networks particularly suited for sequential data like text. We cover the architecture of RNNs and how they can be used for various NLP tasks.        Advanced RNNs: Building on the previous chapter, we explore advanced designs of RNNs, including Long Short-Term Memory (LSTM) networks. This section also discusses how these architectures can be applied to solve complex NLP problems.        Transformers: This chapter introduces the Transformer model, a groundbreaking architecture in NLP. We cover the basics of how Transformers work, including their attention mechanism and how they differ from and improve upon previous sequential models.        Pretrained Language Models: Here, we explore the concept and application of pretrained language models in NLP, such as BERT and GPT. We discuss how these models are trained, their capabilities, and their impact on the field of NLP.        NLP Tools: This final section provides an overview of readily available tools and frameworks that can be used for NLP tasks. It’s a practical guide to applying NLP techniques without the need for building models from scratch, ideal for quick deployment and experimentation.  Tangent PlaneConceptually- Tangent line but is 2d for a 3d plot- How would you control a plane $L(x,y)$?- Look at the properrties\t- Intersetion with another plane is a straight line- essentially, slope is constant along any fixed x, y\t- Thus, $\\frac{\\partial L}{\\partial x}$ is a constant $a$\t- And, $\\frac{\\partial L}{\\partial y}$ is a constant $b$\t- So, $L(x,y) = xa + yb + c$  \t- If we want to intersect at a point in 3d space (j,k,l), we define it as\t\t- $L(x,y) = a(x-j) + b(y-k) + l$    Equation          Plane: $L(x,y) = a(x-x_0) + b(y-y_0) + z_0$                  Intersects at $(x_0, y_0, z_0)$          x slope a          y slope b                    Local LinearizationConceptually\t- $L_f(x,y)$ is the local linearization of f(x,y)\t\t- Local: specific point\t\t- Linear (linear) representation\t- Essentially, approximating a function at a point- same partial derivatives.  Equation      - Equivalent to $f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)  + f(x_0,y_0)$       - Which is equivalent to $\\begin{bmatrix} f_x(\\textbf{x}_0) \\\\ f_y(\\textbf{x}_0) \\end{bmatrix} \\cdot \\begin{bmatrix} x-x_0 \\\\ y-y_0 \\end{bmatrix}$       - Which is equivalent to $f(\\textbf{x}_0) + \\nabla f (\\textbf{x}_0) \\cdot (\\textbf{x} - \\textbf{x}_0)$Quadratic ApproximationsConceptually      Try to approximate f(x,y), but also second partial derivatives        Equation        Remember that the local linearization’s full equation is $L(x,y)= f(x_1,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0)$          Remember the properties:                  $L(x_0,y_0)=f(x_0,y_0)$          $\\frac{\\partial L}{\\partial x} =  f_x(x_0, y_0)$          $\\frac{\\partial L}{\\partial y} =  f_y(x_0, y_0)$                      Quadratic Appromization of $f(x,y)$  $Q(x,y)= f(x_0,y_0) + f_x(x_0,y_0)(x-x_0) + f_y(x_0,y_0)(y-y_0) +   a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2$  How do we find a, b, and c though? Well, we need the scond degree partials to be equivalent to function’s. IE.          $\\frac{\\partial ^2 Q}{\\partial x^2}(x_0,y_0) = \\frac{\\partial ^2 f}{\\partial x^2}(x_0,y_0)$      $\\frac{\\partial ^2 Q}{\\partial y^2}(x_0,y_0) = \\frac{\\partial ^2 f}{\\partial y^2}(x_0,y_0)$      $\\frac{\\partial ^2 Q}{\\partial y \\partial x}(x_0,y_0) = \\frac{\\partial ^2 f}{\\partial y \\partial x}(x_0,y_0)$        So, we can compute a, b, and c          For a: $\\frac{\\partial ^2 Q}{\\partial x^2}(x_0,y_0)$ = 2a                  Since we know we want it to be equal to $\\frac{\\partial ^2 f}{\\partial x^2}(x_0,y_0)$                          Set a to be $\\frac{\\frac{\\partial ^2 f}{\\partial x^2}(x_0,y_0)}{2}$                                          For b: $\\frac{\\partial ^2 Q}{\\partial y \\partial x}(x_0,y_0)$  = b                  So, set b = $\\frac{\\partial ^2 f}{\\partial y \\partial x}(x_0,y_0)$                    For c: $\\frac{\\partial ^2 Q}{\\partial y^2}(x_0,y_0))$  = c                  Ends up should set c =  $\\frac{\\partial ^2 f}{\\partial y^2}(x_0,y_0)$                      Simpler notation          $a = \\frac{1}{2} f_{xx}(x_0,y_0)$      $b =  f_{xy}(x_0,y_0)$      $c = \\frac{1}{2} f_{yy}(x_0,y_0)$        Essentially just adding the following to the linear equations:          $a(x-x_0)^2 + b(x-x_0)(y-y_0) + c(y-y_0)^2$      Hessian MatrixConceptually\t- How can we organize the secon partial derivative informatoin of a multivariable function?  Equation          $\\textbf{H} = \\begin{bmatrix} \\frac{\\partial ^2 f}{\\partial x^2} &amp; \\frac{\\partial ^2}{\\partial x \\partial y} \\\\ \\frac{\\partial ^2}{\\partial x \\partial y} &amp; \\frac{\\partial ^2 f}{\\partial y^2}  \\end{bmatrix}$ Can extend logically to include zs, etc      Quadratic form with a matrixConceptually\t- How to represent a quadratic form with a matrix?\t- Quadratic form is $ax^2 + 2bxy + cy^2$  Equation          Express as $\\begin{bmatrix} x &amp; y \\end{bmatrix} \\begin{bmatrix} a &amp; b \\\\ b &amp; c \\end{bmatrix} \\begin{bmatrix} x \\\\ y \\end{bmatrix}$      Equivalent to $\\textbf{x}^t M \\textbf{x}$      Multivariable Quadratic Approximations in Vector FormConceptually\t- How to represent a quadratic form with a matrix?\t- Quadratic form is $ax^2 + 2bxy + cy^2$  EquationWhat are GNNs?: This introductory chapter provides an overview of Graph Neural Networks (GNNs), discussing why they are crucial in the data science field, how embeddings are applied in GNNs, and the basic architecture of these networks.      Layers: Focuses on the GNN layer, explaining how these layers process graph-structured data and how information is propagated within a GNN.        Connecting Layers: Covers various ways layers in a GNN can be connected, including different types of graph convolutions and their impact on learning.        Computation Graph: Provides an in-depth look at the computation graph of GNNs, explaining data flow and computations at each node and edge.        Augmentating GNNs: Explores data augmentation in GNNs, enhancing the model’s ability to learn robust representations from graph-structured data.        Training GNNs: Dedicated to the training process of GNNs, including loss functions, optimization techniques, and handling overfitting.        Relational GNNs: Delves into relational GNNs, designed for multi-relational data, particularly useful in scenarios with different types or properties of relationships.        Temporal GNNs: Discusses Temporal GNNs, specialized for handling graph data that changes over time, including unique challenges and techniques.  Knowledge Graphs: Introduces knowledge graphs, their structure, significance, and applications, and how GNNs can be applied to them.      Knowledge Graph Completion: Focuses on knowledge graph completion using GNNs, predicting missing information in a knowledge graph.        Knowledge Graph-Based GNN Applications: Explores various applications of GNNs in the context of knowledge graphs, demonstrating practical uses in real-world scenarios.  "
   },
   
   {
@@ -81,15 +98,15 @@
 
 
     
-    "snippet": "",
-    "content": ""
+    "snippet": "CNNs - Intro and Basics: An introduction to Convolutional Neural Networks (CNNs), covering fundamental ideas like local connectivity, parameter sharing, and biological interpretations.      CNN Arc...",
+    "content": "CNNs - Intro and Basics: An introduction to Convolutional Neural Networks (CNNs), covering fundamental ideas like local connectivity, parameter sharing, and biological interpretations.      CNN Architectures - In Search of Depth: Exploration of various deep CNN architectures including LeNet, AlexNet, VGG, GoogLeNet, ResNet, Inception-ResNet, ResNeXt, DenseNet, and SE-Net.        Modern Architectures - In Search of Efficiency: Insights into efficient CNN designs like Mobile Net, Xception, Network Architecture Search (NAS), and Efficient Net.  Introduction to CV Applications: An overview of the practical applications of computer vision.      Semantic Segmentation: Techniques and models in semantic segmentation including the Sliding Window Approach, Fully Convolutional Neural Net (FCNN), AutoEncoder Architectures, and U-Net.        Object Detection: Exploring single and two-step approaches in object detection and methods to evaluate these models.        Instance Segmentation: A focused look at instance segmentation in computer vision.        Representation Learning: Delving into the concept of representation learning in deep learning models.        Deep Hierarchical Representations: Understanding the importance and mechanism of hierarchical representations in AI.        Learning Strategies: Comprehensive coverage of various learning strategies including transfer learning, multi-task learning, self-supervised learning, semi-supervised and self-supervised learning, and domain adaptation.        Attention and Transformers in CV: A deep dive into the role of attention mechanisms and Transformers in computer vision.  "
   },
   
   {
-    "title": "(Conceptual) Calculus (in progress)",
-    "url": "/posts/(O)calculus/",
-    "categories": "NLP",
-    "tags": "overview",
+    "title": "Parametric Equations and Polar Coordinates",
+    "url": "/posts/sequence-series/",
+    "categories": "Calc",
+    "tags": "done",
     "date": "2023-11-20 03:33:00 +0000",
     
 
@@ -98,8 +115,178 @@
 
 
     
-    "snippet": "Welcome to my notes on Fundamental Concepts in Calculus, designed as a conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable and un...",
-    "content": "Welcome to my notes on Fundamental Concepts in Calculus, designed as a conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable and understandable, especially for those who appreciate a visual and intuitive learning style. Since the emphasis is on the concepts, this guide is less authoritative and encompassing as my other posts, but should be helpful to build an intuition for Calculus regardless.Please note that these materials assume some basic knowledge in algebra and pre-calculus. A visual and geometric approach is often emphasized, making complex concepts more tangible.Here are some key elements to look out for:      Interactive Examples: To enhance understanding, I’ve included interactive examples and visualizations. These are crucial in grasping the more abstract aspects of calculus.        Chapter Summaries: Each chapter concludes with a summary to reinforce the key concepts and formulas.        Practical Applications: Wherever possible, I’ve related concepts to real-world applications. This helps in understanding the relevance and importance of calculus in various fields.  Now, let’s explore the chapters in this collection:The Essence of Calculus: This introductory chapter aims to capture the overarching ideas of calculus, using intuitive examples like rediscovering the formula for a circle’s area - a direct application of the fundamental theorem of calculus.The Paradox of the Derivative: A beginner-friendly explanation of derivatives, demystifying how they formalize seemingly paradoxical ideas.Power Rule through Geometry: Understanding the derivatives of polynomial terms with a focus on geometric intuition.Trig Derivatives through Geometry: Delve into the derivatives of trigonometric functions, explained in a visually intuitive manner.Visualizing the Chain Rule and Product Rule: Breaking down these fundamental rules of calculus into understandable, intuitive concepts.What’s so Special about Euler’s Number e?: Exploring the unique properties of e and its significance in calculus.Implicit Differentiation: A practical approach to understanding implicit differentiation in the context of functions with multiple inputs.Limits and the Definition of Derivatives: A foundational chapter that explores the concept of limits and how they are essential in defining derivatives.(ε, δ) “Epsilon Delta” Definitions of Limits: A more formal approach to understanding limits and their precise mathematical definitions.L’Hôpital’s Rule: Explaining L’Hôpital’s rule and its applications in evaluating limits.Integration and the Fundamental Theorem of Calculus: An introduction to integration and its connection to differentiation through the fundamental theorem of calculus.What Does Area Have to Do with Slope?: Linking the concept of area (integration) with the concept of slope (differentiation).Higher Order Derivatives: Understanding second, third, and higher-order derivatives and their interpretations.Taylor Series: A detailed exploration of Taylor series, their usefulness, and their underlying principles.Taylor Series (Geometric View): A geometric perspective on Taylor series, linking them to the fundamental theorem of calculus.The Other Way to Visualize Derivatives: A unique visual approach to understanding derivatives, thinking of functions as transformations and measuring local changes.By the end of these chapters, you should have a solid grasp of the fundamental concepts of calculus, equipped with both the theoretical knowledge and intuitive understanding needed to tackle more advanced topics or apply these concepts in practical scenarios."
+    "snippet": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.SequencesSeries##Convergence/DivergenceTests  Inetegral Test  Comparison Test  Alternating Series Test  Ratio...",
+    "content": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.SequencesSeries##Convergence/DivergenceTests  Inetegral Test  Comparison Test  Alternating Series Test  Ratio Test  Root TestPower SeriesTayor SeriesBinomial Series"
+  },
+  
+  {
+    "title": "Parametric Equations and Polar Coordinates",
+    "url": "/posts/parametric-polar/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.Parametric Equations and CurvesPolar Coordinates",
+    "content": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.Parametric Equations and CurvesPolar Coordinates"
+  },
+  
+  {
+    "title": "Limits",
+    "url": "/posts/limits/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s kick off our exploration of Calculus with a dive into limits.Tangent Lines and Rate of ChangeBefore we formally define limits, let’s understand their conceptual grounding.Welcome to my notes ...",
+    "content": "Let’s kick off our exploration of Calculus with a dive into limits.Tangent Lines and Rate of ChangeBefore we formally define limits, let’s understand their conceptual grounding.Welcome to my notes on Fundamental Concepts in Calculus, designed as a short conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable and understandable, especially for those who appreciate a visual and intuitive learning style. Since the emphasis is on the concepts, this guide is less authoritative and encompassing as my other posts, but should be helpful to build an intuition for Calculus regardless.Please note that these materials assume some basic knowledge in algebra and pre-calculus. A visual and geometric approach is often emphasized, making complex concepts more tangible.Here is the table of contentsThe Limit  Conceptually, the limit of f(x) is L as x approaches a.  We write this as \\(\\underset{x \\rightarrow a}{\\text{lim}} f(x) = a\\)  Definition of a limit  The Limit of $f$ as $x$ approaches $a$ from above is $L$ if:  for every $\\epsilon &gt; 0$ , there exists a $\\delta &gt; 0$ such that whenever $0 &lt; x - p &lt; \\delta$ , we have $|f(x) - L| &lt; \\epsilon$  We write this as \\(\\underset{x \\rightarrow a}{\\text{lim}} f(x) = a\\)Consider the limit as it approachsWe consider the term taking the limit to representInfinite LimitsComputing LimitsContinuity"
+  },
+  
+  {
+    "title": "Integration Techniques",
+    "url": "/posts/integration-techniques/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into integrals.",
+    "content": "Let’s continue exploration of Calculus with a dive into integrals."
+  },
+  
+  {
+    "title": "Integrals",
+    "url": "/posts/integrals/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into integrals.Indefinite IntegralsComputing Indefinite IntegralsSubstitution RuleDefinite IntegralComputing Definite IntegralsSubstitution Rule f...",
+    "content": "Let’s continue exploration of Calculus with a dive into integrals.Indefinite IntegralsComputing Indefinite IntegralsSubstitution RuleDefinite IntegralComputing Definite IntegralsSubstitution Rule for Definite Integrals"
+  },
+  
+  {
+    "title": "Applications of Integrals",
+    "url": "/posts/integrals-applications/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into the applications of integrals.Average Function ValueArea between CurvesVolume",
+    "content": "Let’s continue exploration of Calculus with a dive into the applications of integrals.Average Function ValueArea between CurvesVolume"
+  },
+  
+  {
+    "title": "Derivatives",
+    "url": "/posts/derivatives/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into derivatives.Defining the derivative  Definition  InterpretationDerivative Rules  General Rule  Product Rule  Quotient Rule  Chain RuleCommon ...",
+    "content": "Let’s continue exploration of Calculus with a dive into derivatives.Defining the derivative  Definition  InterpretationDerivative Rules  General Rule  Product Rule  Quotient Rule  Chain RuleCommon Derivatives,  Trigonometric  Exponential  Logarithmic  Inverse Trig  HyperbolicImplicit + Logarithmic DifferentiationHigher Order Derivatives"
+  },
+  
+  {
+    "title": "Applications of derivatives",
+    "url": "/posts/derivatives-applications/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.L-Hospital’s RuleRates of ChangeCritical + ExtremaLinear ApproximationTheorems + Newtons MethodsOptimization",
+    "content": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.L-Hospital’s RuleRates of ChangeCritical + ExtremaLinear ApproximationTheorems + Newtons MethodsOptimization"
+  },
+  
+  {
+    "title": "Applications of derivatives",
+    "url": "/posts/derivatives-applications-copy-3/",
+    "categories": "Calc",
+    "tags": "done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.L-Hospital’s RuleRates of ChangeCritical + ExtremaLinear ApproximationTheorems + Newtons MethodsOptimization",
+    "content": "Let’s continue exploration of Calculus with a dive into the applications of derivatives.L-Hospital’s RuleRates of ChangeCritical + ExtremaLinear ApproximationTheorems + Newtons MethodsOptimization"
+  },
+  
+  {
+    "title": "(Conceptual) Calculus",
+    "url": "/posts/calculus/",
+    "categories": "NLP",
+    "tags": "overview, done",
+    "date": "2023-11-20 03:33:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "Welcome to my notes on Fundamental Concepts in Calculus, designed as a short conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable ...",
+    "content": "Welcome to my notes on Fundamental Concepts in Calculus, designed as a short conceptual guide for students and enthusiasts alike. These notes aim to demystify calculus, making it more approachable and understandable, especially for those who appreciate a visual and intuitive learning style. Since the emphasis is on the concepts, this guide is less authoritative and encompassing as my other posts, but should be helpful to build an intuition for Calculus regardless.Please note that these materials assume some basic knowledge in algebra and pre-calculus. A visual and geometric approach is often emphasized, making complex concepts more tangible.Here is the table of contentsThe Essence of Calculus: What is calculus really about?Limits: Introduction the concept of limits. The formal definition of limts, evaluating them in multiple contexts, and some relevant theorems.Derivatives: Introduction to the concept of derivatives. The standard derivatives formulas and most relevant derivatives. Also, the most essential tricks relating to derivatives.Applications of Derivatives: What can you do with derivatives?Integrals: Introduction to definite and indefinite integrals. Definition and properties of each type of integral as well as how to compute them including the Substitution Rule. We will give the Fundamental Theorem of Calculus showing the relationship between derivatives and integrals. We will also discuss the Area Problem, an important interpretation of the definite integral.Applications of Integrals: Essential applications of integrals.Integration Techniques: Some more integration techniquesParametric Equations and Polar Coordinates: Introduction to the ideas of parametric equations and polar coordinatesSequences and Series: Introduction to sequences and series. Convergence, divergence, tc.By the end of these chapters, you should have a solid grasp of the fundamental concepts of calculus, equipped with both the theoretical knowledge and intuitive understanding needed to tackle more advanced topics or apply these concepts in practical scenarios."
+  },
+  
+  {
+    "title": "AlexNet | Breaking it Down",
+    "url": "/posts/alexnet/",
+    "categories": "CV",
+    "tags": "breakdown, implementation",
+    "date": "2023-08-08 00:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "N.B. This post is part of my efforts to allow for a more mainstream audience to comprehend the state of the art of AI research. It can be extremely difficult to know what the latest advances are, m...",
+    "content": "N.B. This post is part of my efforts to allow for a more mainstream audience to comprehend the state of the art of AI research. It can be extremely difficult to know what the latest advances are, much less keep up with the most recent research. I talk more about this hereLet’s breakdown ImageNet Classification with Deep Convolutional Neural NetworksStream Diffusion:Graph Components  Objects: nodes, vertices (N)  Interactions: Arcs, links, edges (E)  System: graph, network (G(N,E))To define any graph  What are its nodes?  What are its edges?Terminology/Types of Graphs  Directed vs undirected          Sample Directed: Twitter Followers      Sample Undircted: Facebook Friends        Degree/Grado Number of adjacent nodes for a given node  Grado Medio: Average degree of graph’s nodes. Represents the density of a graph.  Heterogeneous Graphs: contains multiple types of nodes or links          Bipartite graphs: Nodes are divided into 2 categories and arcs go from one to another        Adjacency Matrix          Not symmetric if graph is directed      Essentially, fill out a matrix $A$ where $A_{ij}$ is 1 if there is a link from node $i$ to $j$ and 0 if not        List of Edges          List of the pairs of  connected nodes        Adjacency List          For each ndoe, indicate its neighbors (easy to search through)        Multigraph          Can have parallel edges (ie adjacency matrix would have the numbers 2+, not just 1s)        Self-Edges          Can have edge to itself        Connectivity: more relations between all graph’s pairs of nodes          Strongly Connected Graph: Can travel to any vertex from any      Weakly connected graph: if would be strongly connected if directed edges were replaced with undirected ones.Node/Edge Attributes        Weight/Peso: frequency of communication between noes  Centrality/Centralidad: position/importance in the graph  Ranking: best friend, second best friend  Type: friend, acquaintance  Sign/Signo: friend/enemy, trusted/untrusted"
   },
   
   {
